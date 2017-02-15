@@ -1,0 +1,66 @@
+
+#services{
+	list-style:none;
+	width:60%;
+}
+
+#services li{
+	background-color: #fbfbfc;
+	box-shadow:0 1px 1px #eee;
+	font-size:15px;
+	color: #85898b;
+	padding:22px 30px;
+	margin-bottom:15px;
+	border-radius:4px;
+	cursor:pointer;
+}
+
+#services li span{
+	float:right;
+	opacity:0.6;
+}
+
+#services li input[type=checkbox]{
+	border:1px solid #ccc;
+	box-shadow:1px 1px 1px #ccc;
+	margin-right:10px;
+	width:16px;
+	height:16px;
+	display:inline-block;
+	vertical-align: middle;
+}
+
+#total{
+	font-size:20px;
+	text-align:right;
+	width:60%;
+	padding-right:30px;
+}
+
+#total span{
+	display:inline-block;
+	min-width:70px;
+}
+
+
+#order{
+	font:inherit;
+	font-size:24px;
+	cursor:pointer;
+	border:none;
+	display:block;
+	background-color:#89bde5;
+	color:#fff;
+	text-transform:uppercase;
+	width:200px;
+	margin:80px auto 0;
+	text-align:center;
+	padding:22px 0;
+	border-radius: 3px;
+	box-shadow:0 1px 1px #ddd, 0 0 20px #84b8e0 inset;
+}
+
+#order:hover{
+	opacity: 0.9;
+}
+
